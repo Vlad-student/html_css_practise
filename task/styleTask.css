@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+/*    --primary-color: black;*/
+/*    -secondary-color: black;*/
+/*    color: var(--primary-color);*/
+    color: black;
+    font-size: 17px;
+    line-height: 1.6em;
+}
+
+#banner {
+    height: 100vh;
+    background-image: url('.././images/Atlantic-Beach_Terry-Ward-1600x1200.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+#banner h1 {
+    text-transform: capitalize;
+    font-size: 50px;
+    line-height: 1.2em;
+}
+
+#banner p {
+    text-align: center;
+}
+
+#banner a {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    color: black;
+}
+
+#banner a:hover {
+    background: navajowhite;
+    color: black;
+}
+
+.ar1 {
+    background: rosybrown;
+}
+.ar2 {
+    background: wheat;
+}
+
+footer div {
+    display: inline-block;
+    width: 33.33%;
+    min-height: 500px;
+    padding: 20px;
+
+}
+
+.div1 {
+    background: rosybrown;
+}
+.div2 {
+    background: wheat;
+}
+
+
